@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Log in</title>
+</head>
+<body class="flex min-h-screen bg-slate-200">
+    <!--main container-->
+    <section class="flex flex-row w-3/4 m-auto bg-white rounded-lg shadow-lg">
+        <div class="flex flex-col justify-between p-8 gap-4 md:w-1/2">
+            <img class="h-full w-full" src="img/pic.jpg" alt="Foto Saul">
+            <h1>Bienvenido al Intranet</h1>
+            <p>Ingresa tus datos para iniciar sesión.</p>
+            <label for="correo" class="font-semibold">Correo</label>
+            <input id="correo" type="text" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5">
+            <label for="contrasena" class="font-semibold">Contraseña</label>
+            <input id="contrasena" type="text" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5">
+            <div>
+                <input type="checkbox" id="remember" class="">
+                <label for="remember">Recordar Contraseña</label>
+            </div>
+            <button class="p-2.5 bg-[#3D5775] w-full rounded-md text-white outline-none shadow-lg transform active:scale-75 transition-transform">Iniciar Sesión</button>
+            
+        </div> 
+
+        <figure class="relative hidden rounded-r-lg w-1/2 bg-cover bg-center md:block" style="background-image: url(img/pic.jpg)"/>
+    </section>
+</body>
+</html>
